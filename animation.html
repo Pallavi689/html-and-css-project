@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        /* .ani{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(39, 6, 70);
+            color: white;
+            border: 2px solid black;
+            box-shadow: 1px 1px 4px 2px black;
+            font-size: 30px;
+            margin: 0 auto;
+             position: absolute;       center a box 
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             animation-name: mation;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse; 
+            animation: mation 2s ease 2s infinite reverse;
+            }
+        @keyframes mation{
+            0%{background-color: rgb(13, 65, 30); border-radius: 10%; }
+            25%{background-color: crimson; border-radius: 20%; color: black;}
+            50%{background-color: darkgreen; border-radius: 30%; color: white;}
+            75%{background-color: rgb(20, 5, 73); border-radius: 40%;color: black;}
+            100%{background-color: rgb(161, 34, 83); border-radius: 50%; color: white;}
+        } */
+          body{
+              background-color: rgb(144, 144, 146);
+          }
+        .photo{
+            width: 900px;
+            height: 500px;
+            background-image: url(https://images.pexels.com/photos/273935/pexels-photo-273935.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+            background-size: 100% 100%;
+            box-shadow: 1px 2px 5px 5px white;
+            position: absolute;      
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            animation: wal 35s linear infinite  ; 
+        }
+        @keyframes wal{
+          0%{ background-image: url(https://images.pexels.com/photos/8241099/pexels-photo-8241099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         10%{ background-image: url(https://images.pexels.com/photos/6043246/pexels-photo-6043246.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         20%{ background-image: url(https://images.pexels.com/photos/440731/pexels-photo-440731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         30%{ background-image: url(https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         40%{ background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         50%{ background-image: url(https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         60%{ background-image: url(https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         70%{ background-image: url(https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         80%{ background-image: url(https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+         90%{ background-image: url(https://images.pexels.com/photos/158063/bellingrath-gardens-alabama-landscape-scenic-158063.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}
+        100%{ background-image: url(https://images.pexels.com/photos/2166711/pexels-photo-2166711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);}       
+     }
+     h1{
+         text-transform: capitalize;
+         line-height: 1.4;
+         font-size: 2.1rem;
+         letter-spacing: 0.5rem;
+         text-align: center;
+         color: white;
+     }
+           
+    </style>
+</head>
+<body>
+   <!-- <div class="ani">
+        animation
+   </div> -->
+   <h1> photos animation</h1>
+   <div class="photo">
+
+   </div> 
+</body>
+</html>
