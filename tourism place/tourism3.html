@@ -1,0 +1,65 @@
+<html>
+<head>
+  <link rel="stylesheet" href="tourism.css">
+
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>animation</title>
+      <style>
+          
+            body{
+                background-color: rgb(144, 144, 146);
+            }
+          .photo{
+              width: 900px;
+              height: 500px;
+              background-image: url(https://i.pinimg.com/originals/ca/ed/de/caedde198fc58162eac046dd3e60af48.png);
+              background-size: 100% 100%;
+              box-shadow: 1px 2px 5px 5px white;
+              position: absolute;      
+              left: 50%;
+              top: 50%;
+              transform: translate(-50%,-50%);
+              animation: wal 35s linear infinite  ; 
+          }
+          @keyframes wal{
+            0%{ background-image: url(http://www.visittnt.com/blog/wp-content/uploads/2017/11/Gwalior-Tourism-3.jpg);}
+           20%{ background-image: url(https://www.holidify.com/images/compressed/987.jpg);}
+           40%{ background-image: url(http://www.tnhglobal.com/wp-content/uploads/2021/01/Narmada-Udgam-Amarkantak.jpg);}
+           60%{ background-image: url(https://i.pinimg.com/originals/ad/94/e6/ad94e6df4ab37125b02621dd72d9e063.jpg);}
+           80%{ background-image: url(https://www.globetours.co.in/wp-content/uploads/2018/11/Explore_Madhya_Pradesh_Globe_Tours_chennai_1.jpg);}
+           100%{ background-image: url(https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/12/18/Pictures/_ef80d796-028e-11e9-87e0-d6de39a6b3f8.jpg);}
+                 
+       }
+       .ani{
+           text-transform: capitalize;
+           line-height: 1.4;
+           font-size: 2.1rem;
+           letter-spacing: 0.5rem;
+           text-align: center;
+           color: white;
+       }
+       @media only screen and (max-width: 600px){
+         .photo{
+          width: 400px;
+              height: 200px;
+         }
+         .ani{
+           padding-top: 150px;
+         }
+       }
+             
+      </style>
+  </head>
+  <body>
+     
+     <h1 class="ani"> photos animation</h1>
+     <div class="photo">
+  
+     
+  </body>
+  </html>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link href="tourism.css" rel="stylesheet" >
+
+    <title>Turism Place</title>
+    <style>
+         *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    
+}
+
+.head{
+ text-align: center;
+ font-size: 60px;
+ padding-top:55px ;
+ color:black;
+}
+.head2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 500px ;
+    color:#d3002e;
+   }
+
+.center
+{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  background: #1f1f1f;
+  transform: translate(-50%,-50%);
+  padding: 100px;
+  border: 5px solid white;
+  border-radius: 100%;
+  box-shadow:20px 20px 45px rgba(0,0,0,.4);
+  z-index: 1;
+  overflow: hidden;
+}
+.heart
+{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background:#ff0036;
+  transform: rotate(45deg) translate(10px,10px);
+  animation: ani 1s linear infinite;
+}
+.heart:before
+{
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #ff0036;
+  position: absolute;
+  top:-50%;
+  left:0;
+  border-radius: 50%;
+}
+.heart:after
+{
+  content:'';
+  width: 100%;
+  height: 100%;
+  background: #ff0036;
+  position: absolute;
+  bottom:0;
+  right:50%;
+  border-radius: 50%;
+}
+.center:before
+{
+  content: '';
+  position: absolute;
+  top:0;
+  left:-50%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.3);
+}
+
+@keyframes ani{
+  0%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+  }
+  25%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+  }
+  30%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.4);
+  }
+  50%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.2);
+  }
+  70%{
+    transform: rotate(45deg) translate(10px,10px) scale(1.4);
+  }
+  90%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+  }
+  100%{
+    transform: rotate(45deg) translate(10px,10px) scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px){
+ .head{
+  font-size: 40px;
+  
+ }
+ .head2{
+  font-size: 30px;
+  
+ }
+}
+
+    </style>
+   
+  </head>
+  <body>
+    <h1 class="head">Heart Of India </h1>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <div class="center">
+    <a href="tourism2.html"><div class="heart"></div></a>
+    </div>
+    <a href="tourism2.html"> <h1 class='head2'>Tourism of Madhya Pradesh</h1></a>
+  </body>
+</html>

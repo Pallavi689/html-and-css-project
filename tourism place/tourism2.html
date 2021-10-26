@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism of Madhya Pradesh</title>
+    <!-- <link href="tourism.css" rel="stylesheet" > -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <style>.body1{
+        background-image: url(https://wallpapercave.com/wp/wp4319063.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .logo{
+          background-color: #34495e;
+          opacity: 0.8;
+          color:#fff;
+          padding: 20px;
+          font-family: sans-serif;
+          text-shadow: 2px 4px 1px black;
+      }
+      .logo h1{
+          height: 70px;
+          float: left;
+         margin-right: 20px;
+         margin-top: 10px;
+         letter-spacing: 0.5rem;
+      }
+      .logo1{
+          text-align: right;
+      }
+      ul li{
+          display: inline-block;
+          margin: 15px;
+          list-style: none;
+          color:#fff;
+          font-size: 20px;
+      }
+      .a1{
+          color:#fff;
+      }
+      .sine{
+          margin: 0 20ps;
+          font-size: 28px;
+          cursor: pointer;
+          display: none;
+      }
+      .mp{
+          
+        font-family: 'Dancing Script', cursive;   /*top hadding*/
+        font-family: 'Pacifico', cursive;
+        font-size: 70px;
+        margin: 20px;
+        color: rgb(24, 23, 23);
+        text-shadow:6px 6px 4px  white;
+        position: -webkit-sticky;
+        text-align: right;
+        padding-right: 160px;
+        
+      }
+      .p1{
+        font-family: 'Dancing Script', cursive;   /*top hadding*/
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        margin: 20px;
+        color: rgb(255, 30, 0);
+        text-shadow:6px 4px 4px  rgb(255, 253, 253);
+        position: -webkit-sticky;
+        text-align: right;
+        padding-right: 160px;
+      }
+      .box{
+        font-family: 'Dancing Script', cursive;   /*top hadding*/
+        font-family: 'Pacifico', cursive;
+        text-align: left;
+        float: right;
+        padding-left: 600px;
+        padding-right: 100px;
+        font-size: 20px;
+        color:white;
+        text-shadow:2px 2px 2px  rgb(0, 0, 0)
+      }
+      
+      @media only screen and (max-width: 600px){
+          .sine{
+              display: block;
+          }
+          ul li{
+              display: block;
+          }
+          ul{
+              display: none;
+          }
+          .mp{
+            
+            font-size: 30px;
+            color: rgb(24, 23, 23);
+           padding-top: 250px;
+           padding-left: 70px;
+            padding-right: 140px;
+           margin: 0;
+          
+          }
+          .p1{
+            font-size: 20px;
+            text-align: left;
+            margin: 0;
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+            
+          }
+          .box{
+            margin: 0 auto;
+            padding: 0;
+            margin-right: 70px;
+            margin-left: 70px;
+            font-size: 15px;
+            color:rgb(0, 0, 0);
+            text-shadow:0px 0px 0px  rgb(0, 0, 0);
+            
+          }
+          .a1{
+            font-size: 15px;
+            color: black;
+          }
+          .a1:hover{
+            background-color: white;
+          }
+          .logo h1{
+            height: 40px;
+            letter-spacing: normal;
+        } 
+        .logo{
+          background-color: transparent;
+          
+          color:rgb(7, 7, 7);
+          
+          text-shadow: 2px 2px 2px rgb(255, 255, 255);
+      }
+      }</style>
+</head>
+<body class="body1">
+    <nav>
+   <div class="logo">
+      <h1>MADHYA PRADESH</h1>
+       <div class="logo1">
+           <span class="sine" onclick="myfunction()">&#9776;</span>
+   <ul id="fornav">
+       <li><a class="a1"  href="tourism4.html">CITIES</a></li>
+       <li><a class="a1" href="tourism3.html">PLACE</a></li>
+   </ul>
+</div>
+</div>
+  
+    </nav> 
+    <h1 class="mp">Madhya pradesh</h1> 
+    <p class="p1">Travels In The Heart Of &nbsp;  India </p> 
+     <p class="box">Madhya Pradesh is the second largest Indian state by area and 
+        <br>the fifth largest state by population with over 72 million
+   <br> residents.Its capital is Bhopal, and the largest city is <br>
+        Indore, with Satna, Jabalpur, Gwalior, Ujjain, Sagar being the <br>
+        other major cities.Tourism in Madhya Pradesh has been an attraction<br> 
+        of India because of its location in the centre of the country. Madhya<br>
+        Pradesh has won Best Tourism State National award for 3 consecutive<br>
+        years i.e. 2017, 2016 and 2015
+    </p>
+    <script>
+        function myfunction(){
+            var x=document.getElementById("fornav");
+           if(x.style.display=="block")
+           {
+               x.style.display = "none";
+           }
+           else{
+               x.style.display = "block";
+           }
+        }
+    </script>  
+</body>
+</html>
