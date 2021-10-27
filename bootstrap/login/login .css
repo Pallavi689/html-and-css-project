@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.row{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px gray;
+}
+
+.login img{
+    border-top-left-radius: 30px;
+}
+.row{
+    border-radius: 20px;
+    background-color: white;
+    
+}
+input{
+    width: 38%;
+}
+.btn1{
+border: none;
+outline: none;
+height: 50px;
+width: 38%;
+background-color: black;
+color: white;
+border-radius: 4px;
+font-weight: bold;
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid;
+
+}
+input:hover{
+    border:2px solid skyblue ;
+    box-shadow: 1px 1px 1px skyblue;
+}
