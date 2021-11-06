@@ -1,0 +1,14 @@
+*{
+   
+}
+.carousel-item img{
+   width: 100%;
+   height: 80vh;
+}
+.about div h1{
+    font-family: 'Crimson Text', serif;
+    
+}
+.services{
+    font-family: 'Crimson Text', serif;
+}
